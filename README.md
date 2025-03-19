@@ -3,13 +3,13 @@ J'ai donc tenté de répondre à la question suivante : "Les États américains 
 
 Pour étudier cette relation j'ai donc, à partir d'une base de donnée, créer et tester plusieurs modèle économétrique sur R studio :
 
--MCO
--Between à effets fixe
--Between à effets individuel
--Within à effets fixe
--Within à effets individuel
--Within à 2 effets
--FGLS (effet aléatoire)
+* MCO
+* Between à effets fixe
+* Between à effets individuel
+* Within à effets fixe
+* Within à effets individuel
+* Within à 2 effets
+* FGLS (effet aléatoire)
 
 Résultat de mon étude : 
 
