@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-    <title>Mon Dossier PDF</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voir le PDF</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,32 +18,23 @@
             margin-top: 20px;
         }
 
-        a {
-            display: inline-block;
+        .pdf-container {
             margin-top: 20px;
-            padding: 10px 20px;
-            color: #fff;
-            background-color: #4CAF50;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-
-        a:hover {
-            background-color: #45a049;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
         }
 
         embed {
-            margin-top: 20px;
-            border: 1px solid #ddd;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            width: 80%;
+            height: 800px;
+            border: none;
         }
     </style>
 </head>
 
 <body>
-    <h1>Mon Dossier PDF</h1>
-    <a href="Dossier.pdf" target="_blank">Télécharger le PDF</a>
-    <br><br>
-    <embed src="Dossier.pdf" type="application/pdf" width="80%" height="600px" />
+    <h1>Voir mon Dossier PDF</h1>
+    <div class="pdf-container">
+        <embed src="Dossier.pdf" type="application/pdf" />
+    </div>
 </body>
 </html>
