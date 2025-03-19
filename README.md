@@ -1,4 +1,4 @@
-Ce projet vise à explorer la relation entre la densité de population et le taux de criminalité dans les États américains. 
+Ce projet économétrique (de panel) vise à explorer la relation entre la densité de population et le taux de criminalité dans les États américains. 
 J'ai donc tenté de répondre à la question suivante : "Les États américains les plus densément peuplés ont-ils des taux de criminalité plus élevés ? en crééant un mod
 
 Pour étudier cette relation j'ai donc, à partir d'une base de donnée, créer et tester plusieurs modèle économétrique sur R studio :
